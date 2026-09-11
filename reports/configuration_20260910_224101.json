@@ -1,0 +1,31 @@
+{
+  "input_path": "/Users/Папочка з файлікамі/Diploma/program/datasets/demo_texts.json",
+  "text_column": "text",
+  "label_column": "label",
+  "max_documents": null,
+  "remove_stopwords": true,
+  "lemmatize": true,
+  "custom_stopwords": [],
+  "vectorizers": [
+    "tfidf",
+    "word2vec",
+    "fasttext",
+    "doc2vec",
+    "sentence_bert"
+  ],
+  "algorithms": [
+    "kmeans",
+    "hierarchical",
+    "dbscan",
+    "minibatch",
+    "birch"
+  ],
+  "n_clusters": 5,
+  "kmeans_init": "k-means++",
+  "linkage": "ward",
+  "eps": 0.5,
+  "min_samples": 5,
+  "runs": 1,
+  "make_charts": true,
+  "recommend_clusters": true
+}

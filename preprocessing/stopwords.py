@@ -14,11 +14,12 @@ class StopwordRemover:
         "також", "ще", "от", "ну", "ось"
     }
 
-    def __init__(self, lang: str = "ukrainian"):
+    def __init__(self, lang: str = "ukrainian", custom_stopwords: set[str] | None = None):
         if lang == "ukrainian":
-            self.stopwords = self.UKRAINIAN_STOPWORDS
+            self.stopwords = set(self.UKRAINIAN_STOPWORDS)
         else:
             self.stopwords = set()  # заглушка
+        self.stopwords.update(word.lower().strip() for word in (custom_stopwords or set()) if word.strip())
 
     def remove(self, tokens: list[str]) -> list[str]:
         return [t for t in tokens if t not in self.stopwords]

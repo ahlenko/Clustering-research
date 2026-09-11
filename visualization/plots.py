@@ -1,6 +1,11 @@
 """
 plots.py – візуалізація кластерів зі зниженням розмірності.
 """
+# Charts are report files generated while the Tkinter worker is running.
+# Force a non-GUI renderer before pyplot is imported: macOSX cannot safely
+# create a window outside Tkinter's main thread.
+import matplotlib
+matplotlib.use("Agg", force=True)
 import matplotlib.pyplot as plt
 import numpy as np
 from sklearn.manifold import TSNE
@@ -11,8 +16,11 @@ def plot_clusters(X: np.ndarray, labels: np.ndarray, title: str = "Clusters",
     """
     Знижує розмірність до 2D та малює розкид.
     """
-    # Якщо вже 2D, не знижуємо
-    if X.shape[1] > 2:
+    # PCA needs at most min(samples, features) components.  Pad a single
+    # feature corpus so even tiny demonstration datasets can be visualised.
+    if X.shape[1] == 1:
+        X_2d = np.column_stack([X[:, 0], np.zeros(X.shape[0])])
+    elif X.shape[1] > 2:
         if method == 'tsne':
             reducer = TSNE(n_components=2, perplexity=perplexity, random_state=42)
         else:

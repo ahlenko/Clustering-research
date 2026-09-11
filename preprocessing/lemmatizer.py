@@ -1,7 +1,10 @@
 """
 lemmatizer.py – лематизація з використанням pymorphy3.
 """
-import pymorphy3
+try:
+    import pymorphy3
+except ImportError:
+    pymorphy3 = None
 
 class Lemmatizer:
     def __init__(self, lang: str = "ukrainian"):
@@ -14,13 +17,15 @@ class Lemmatizer:
             morph_lang = "uk"
         else:
             morph_lang = "uk"
-        self.morph = pymorphy3.MorphAnalyzer(lang=morph_lang)
+        self.morph = pymorphy3.MorphAnalyzer(lang=morph_lang) if pymorphy3 else None
 
     def lemmatize(self, tokens: list[str]) -> list[str]:
         """
         Приймає список токенів (слів) і повертає список їхніх лем.
         Якщо слово не вдається розпізнати, воно залишається без змін.
         """
+        if self.morph is None:
+            return tokens
         lemmas = []
         for token in tokens:
             parsed = self.morph.parse(token)

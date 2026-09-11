@@ -50,7 +50,8 @@ class Benchmark:
                 memories_peak.append(peak / 1024)  # KB
 
             if self.profile_cpu and cpu_mon:
-                avg_cpu = cpu_mon.stop()
+                cpu_stats = cpu_mon.stop()
+                avg_cpu = cpu_stats["process_cpu_percent"]
                 cpu_usages.append(avg_cpu)
 
             logger.info(f"{name} запуск {i+1}: час={elapsed:.4f}с, "

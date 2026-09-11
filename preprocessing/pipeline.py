@@ -8,10 +8,10 @@ from .lemmatizer import Lemmatizer
 
 class PreprocessingPipeline:
     def __init__(self, remove_stopwords: bool = True, lemmatize: bool = True,
-                 lang: str = "ukrainian"):
+                 lang: str = "ukrainian", custom_stopwords: set[str] | None = None):
         self.cleaner = TextCleaner()
         self.tokenizer = SimpleTokenizer()
-        self.stop_remover = StopwordRemover(lang) if remove_stopwords else None
+        self.stop_remover = StopwordRemover(lang, custom_stopwords) if remove_stopwords else None
         self.lemmatizer = Lemmatizer(lang) if lemmatize else None
 
     def process(self, text: str) -> list[str]:

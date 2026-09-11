@@ -1,0 +1,16 @@
+{
+  "created_at": "2026-09-11T19:11:30",
+  "documents": 50,
+  "artifacts": {
+    "chart_sentence_bert_kmeans": "reports/experiments/experiment_20260911_191121/clusters_20260911_191129_771127.png",
+    "chart_sentence_bert_parallel_kmeans": "reports/experiments/experiment_20260911_191121/clusters_20260911_191129_955240.png",
+    "chart_sentence_bert_hierarchical": "reports/experiments/experiment_20260911_191121/clusters_20260911_191130_127228.png",
+    "dendrogram_sentence_bert": "reports/experiments/experiment_20260911_191121/dendrogram_sentence_bert_20260911_191130_188067.png",
+    "csv": "reports/experiments/experiment_20260911_191121/results_20260911_191121.csv",
+    "json": "reports/experiments/experiment_20260911_191121/results_20260911_191121.json",
+    "html": "reports/experiments/experiment_20260911_191121/report_20260911_191121.html",
+    "conclusion": "Швидкодія: найшвидше виконався sentence_bert + kmeans за 0.0026 с.\n\nЯкість кластеризації: найкращий показник Silhouette має sentence_bert + parallel_kmeans (0.0685).\n\nЗа еталонними мітками: найвищий F1 macro має sentence_bert + parallel_kmeans (0.4871).",
+    "comparison_chart": "reports/experiments/experiment_20260911_191121/comparison_20260911_191121.png",
+    "configuration": "reports/experiments/experiment_20260911_191121/configuration_20260911_191121.json"
+  }
+}

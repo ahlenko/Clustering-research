@@ -24,9 +24,11 @@ def profile(func, *args, **kwargs):
 
     t.__exit__()
     mem.__exit__()
-    cpu_avg = cpu_mon.stop()
+    cpu_stats = cpu_mon.stop()
 
     stats['time_sec'] = t.elapsed
     stats['memory_peak_kb'] = mem.peak_kb
-    stats['cpu_percent'] = cpu_avg
+    stats['cpu_percent'] = cpu_stats['process_cpu_percent']
+    stats['cpu_per_core_percent'] = cpu_stats['per_core_percent']
+    stats['cpu_samples'] = cpu_stats['samples']
     return result, stats
