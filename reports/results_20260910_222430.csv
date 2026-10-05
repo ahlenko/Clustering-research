@@ -1,2 +1,0 @@
-dataset,vectorizer,algorithm,documents,clusters_found,noise_documents,vectorization_seconds,vectorization_memory_kb,clustering_seconds,clustering_memory_kb,cpu_percent,silhouette,davies_bouldin,calinski_harabasz,f1_macro,f1_micro,v_measure,ari,nmi
-demo_texts,tfidf,kmeans,50,3,0,0.0033705419991747476,214.4609375,0.16741233299944724,639.7333984375,8.95,0.0008470196331375093,5.109737548295182,1.0923896865652996,0.2103030303030303,0.32,0.10899451767628063,0.03560409943615022,0.10899451767628063

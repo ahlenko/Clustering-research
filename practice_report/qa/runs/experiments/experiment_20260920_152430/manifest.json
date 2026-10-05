@@ -1,0 +1,17 @@
+{
+  "created_at": "2026-09-20T15:25:03",
+  "documents": 50,
+  "artifacts": {
+    "chart_tfidf_kmeans": "practice_report/qa/runs/experiments/experiment_20260920_152430/clusters_20260920_152501_238073.png",
+    "chart_tfidf_parallel_kmeans": "practice_report/qa/runs/experiments/experiment_20260920_152430/clusters_20260920_152502_225778.png",
+    "chart_tfidf_hierarchical": "practice_report/qa/runs/experiments/experiment_20260920_152430/clusters_20260920_152503_036412.png",
+    "dendrogram_tfidf": "practice_report/qa/runs/experiments/experiment_20260920_152430/dendrogram_tfidf_20260920_152503_169495.png",
+    "chart_tfidf_dbscan": "practice_report/qa/runs/experiments/experiment_20260920_152430/clusters_20260920_152503_559502.png",
+    "csv": "practice_report/qa/runs/experiments/experiment_20260920_152430/results_20260920_152430.csv",
+    "json": "practice_report/qa/runs/experiments/experiment_20260920_152430/results_20260920_152430.json",
+    "html": "practice_report/qa/runs/experiments/experiment_20260920_152430/report_20260920_152430.html",
+    "conclusion": "Швидкодія: найшвидше виконався tfidf + dbscan за 0.0028 с.\n\nЯкість кластеризації: найкращий показник Silhouette має tfidf + hierarchical (0.0106).\n\nЗа еталонними мітками: найвищий F1 macro має tfidf + hierarchical (0.3029).",
+    "comparison_chart": "practice_report/qa/runs/experiments/experiment_20260920_152430/comparison_20260920_152430.png",
+    "configuration": "practice_report/qa/runs/experiments/experiment_20260920_152430/configuration_20260920_152430.json"
+  }
+}

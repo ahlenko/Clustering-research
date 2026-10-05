@@ -1,0 +1,83 @@
+{
+  "checks": [
+    [
+      "Імпорт TXT",
+      true,
+      "50 документів"
+    ],
+    [
+      "Імпорт CSV",
+      true,
+      "50 документів"
+    ],
+    [
+      "Імпорт JSON",
+      true,
+      "50 документів"
+    ],
+    [
+      "Повний цикл без лематизації",
+      true,
+      "4 комбінації, 3 повтори"
+    ],
+    [
+      "Відновлення",
+      true,
+      "4 рядки без перерахунку"
+    ],
+    [
+      "Відсутній файл",
+      true,
+      "FileNotFoundError"
+    ],
+    [
+      "Відсутня колонка",
+      true,
+      "ValueError"
+    ]
+  ],
+  "python": "3.12.13",
+  "platform": "macOS-27.0-x86_64-i386-64bit",
+  "artifacts": {
+    "chart_tfidf_kmeans": "practice_report/qa/runs/experiments/experiment_20260920_152430/clusters_20260920_152501_238073.png",
+    "chart_tfidf_parallel_kmeans": "practice_report/qa/runs/experiments/experiment_20260920_152430/clusters_20260920_152502_225778.png",
+    "chart_tfidf_hierarchical": "practice_report/qa/runs/experiments/experiment_20260920_152430/clusters_20260920_152503_036412.png",
+    "dendrogram_tfidf": "practice_report/qa/runs/experiments/experiment_20260920_152430/dendrogram_tfidf_20260920_152503_169495.png",
+    "chart_tfidf_dbscan": "practice_report/qa/runs/experiments/experiment_20260920_152430/clusters_20260920_152503_559502.png",
+    "csv": "practice_report/qa/runs/experiments/experiment_20260920_152430/results_20260920_152430.csv",
+    "json": "practice_report/qa/runs/experiments/experiment_20260920_152430/results_20260920_152430.json",
+    "html": "practice_report/qa/runs/experiments/experiment_20260920_152430/report_20260920_152430.html",
+    "conclusion": "Швидкодія: найшвидше виконався tfidf + dbscan за 0.0028 с.\n\nЯкість кластеризації: найкращий показник Silhouette має tfidf + hierarchical (0.0106).\n\nЗа еталонними мітками: найвищий F1 macro має tfidf + hierarchical (0.3029).",
+    "comparison_chart": "practice_report/qa/runs/experiments/experiment_20260920_152430/comparison_20260920_152430.png",
+    "configuration": "practice_report/qa/runs/experiments/experiment_20260920_152430/configuration_20260920_152430.json",
+    "manifest": "practice_report/qa/runs/experiments/experiment_20260920_152430/manifest.json"
+  },
+  "options": {
+    "input_path": "datasets/demo_texts.csv",
+    "text_column": "text",
+    "label_column": "label",
+    "max_documents": null,
+    "remove_stopwords": true,
+    "lemmatize": false,
+    "custom_stopwords": [],
+    "vectorizers": [
+      "tfidf"
+    ],
+    "algorithms": [
+      "kmeans",
+      "parallel_kmeans",
+      "hierarchical",
+      "dbscan"
+    ],
+    "n_clusters": 5,
+    "kmeans_init": "k-means++",
+    "linkage": "ward",
+    "eps": 0.5,
+    "min_samples": 5,
+    "parallel_restarts": 8,
+    "parallel_workers": 4,
+    "runs": 3,
+    "make_charts": true,
+    "recommend_clusters": true
+  }
+}
