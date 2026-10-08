@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="720" height="315" preserveAspectRatio="xMinYMin meet" viewBox="0 0 720 315" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="720" height="315"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-315)" style="clip-path: url(#clip)">
+		<g transform="">
+			<text x="94.17" y="26" style="font-family: Helvetica; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,52) scale(1,-1)">TF-IDF</text>
+			<rect x="63.0" y="48" width="16.0" height="20.472502500000004" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(19%,36%,50%); fill-rule: evenodd;"/>
+			<rect x="81.0" y="48" width="16.0" height="157.5628125" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(74%,41%,17%); fill-rule: evenodd;"/>
+			<rect x="99.0" y="48" width="16.0" height="6.321877499999999" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(40%,57%,40%); fill-rule: evenodd;"/>
+			<rect x="117.0" y="48" width="16.0" height="49.09530749999999" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(60%,60%,60%); fill-rule: evenodd;"/>
+			<text x="211.66" y="26" style="font-family: Helvetica; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,52) scale(1,-1)">Word2Vec</text>
+			<rect x="188.0" y="48" width="16.0" height="22.059690000000003" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(19%,36%,50%); fill-rule: evenodd;"/>
+			<rect x="206.0" y="48" width="16.0" height="172.26250499999998" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(74%,41%,17%); fill-rule: evenodd;"/>
+			<rect x="224.0" y="48" width="16.0" height="5.845619999999997" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(40%,57%,40%); fill-rule: evenodd;"/>
+			<rect x="242.0" y="48" width="16.0" height="35.856247499999995" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(60%,60%,60%); fill-rule: evenodd;"/>
+			<text x="340.55" y="26" style="font-family: Helvetica; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,52) scale(1,-1)">FastText</text>
+			<rect x="313.0" y="48" width="16.0" height="21.706244999999996" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(19%,36%,50%); fill-rule: evenodd;"/>
+			<rect x="331.0" y="48" width="16.0" height="173.497815" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(74%,41%,17%); fill-rule: evenodd;"/>
+			<rect x="349.0" y="48" width="16.0" height="5.873752500000002" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(40%,57%,40%); fill-rule: evenodd;"/>
+			<rect x="367.0" y="48" width="16.0" height="33.16843499999999" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(60%,60%,60%); fill-rule: evenodd;"/>
+			<text x="464.715" y="26" style="font-family: Helvetica; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,52) scale(1,-1)">Doc2Vec</text>
+			<rect x="438.0" y="48" width="16.0" height="21.018434999999997" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(19%,36%,50%); fill-rule: evenodd;"/>
+			<rect x="456.0" y="48" width="16.0" height="172.39875" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(74%,41%,17%); fill-rule: evenodd;"/>
+			<rect x="474.0" y="48" width="16.0" height="5.918437499999996" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(40%,57%,40%); fill-rule: evenodd;"/>
+			<rect x="492.0" y="48" width="16.0" height="39.66124500000001" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(60%,60%,60%); fill-rule: evenodd;"/>
+			<text x="573.875" y="26" style="font-family: Helvetica; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,52) scale(1,-1)">Sentence-BERT</text>
+			<rect x="563.0" y="48" width="16.0" height="25.2975" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(19%,36%,50%); fill-rule: evenodd;"/>
+			<rect x="581.0" y="48" width="16.0" height="188.3315625" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(74%,41%,17%); fill-rule: evenodd;"/>
+			<rect x="599.0" y="48" width="16.0" height="6.643124999999998" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(40%,57%,40%); fill-rule: evenodd;"/>
+			<rect x="617.0" y="48" width="16.0" height="40.221877500000005" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(60%,60%,60%); fill-rule: evenodd;"/>
+			<path d="M 35,48 L 690,48 Z" style="stroke: rgb(86%,86%,86%); stroke-linecap: butt; stroke-width: 0.4;"/>
+			<text x="24.996" y="45.0" style="font-family: Helvetica; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,90) scale(1,-1)">0</text>
+			<path d="M 35,85.5 L 690,85.5 Z" style="stroke: rgb(86%,86%,86%); stroke-linecap: butt; stroke-width: 0.4;"/>
+			<text x="24.996" y="82.5" style="font-family: Helvetica; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,165) scale(1,-1)">5</text>
+			<path d="M 35,123 L 690,123 Z" style="stroke: rgb(86%,86%,86%); stroke-linecap: butt; stroke-width: 0.4;"/>
+			<text x="19.991999999999997" y="120.0" style="font-family: Helvetica; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,240) scale(1,-1)">10</text>
+			<path d="M 35,160.5 L 690,160.5 Z" style="stroke: rgb(86%,86%,86%); stroke-linecap: butt; stroke-width: 0.4;"/>
+			<text x="19.991999999999997" y="157.5" style="font-family: Helvetica; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,315) scale(1,-1)">15</text>
+			<path d="M 35,198 L 690,198 Z" style="stroke: rgb(86%,86%,86%); stroke-linecap: butt; stroke-width: 0.4;"/>
+			<text x="19.991999999999997" y="195.0" style="font-family: Helvetica; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,390) scale(1,-1)">20</text>
+			<path d="M 35,235.5 L 690,235.5 Z" style="stroke: rgb(86%,86%,86%); stroke-linecap: butt; stroke-width: 0.4;"/>
+			<text x="19.991999999999997" y="232.5" style="font-family: Helvetica; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,465) scale(1,-1)">25</text>
+			<path d="M 35,273 L 690,273 Z" style="stroke: rgb(86%,86%,86%); stroke-linecap: butt; stroke-width: 0.4;"/>
+			<text x="19.991999999999997" y="270.0" style="font-family: Helvetica; font-size: 9px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,540) scale(1,-1)">30</text>
+			<rect x="65" y="293" width="9" height="9" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(19%,36%,50%); fill-rule: evenodd;"/>
+			<text x="80" y="293" style="font-family: Helvetica; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,586) scale(1,-1)">K-Means</text>
+			<rect x="230" y="293" width="9" height="9" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(74%,41%,17%); fill-rule: evenodd;"/>
+			<text x="245" y="293" style="font-family: Helvetica; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,586) scale(1,-1)">Parallel K-Means</text>
+			<rect x="395" y="293" width="9" height="9" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(40%,57%,40%); fill-rule: evenodd;"/>
+			<text x="410" y="293" style="font-family: Helvetica; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,586) scale(1,-1)">Ward</text>
+			<rect x="560" y="293" width="9" height="9" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(60%,60%,60%); fill-rule: evenodd;"/>
+			<text x="575" y="293" style="font-family: Helvetica; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,586) scale(1,-1)">MiniBatch</text>
+		</g>
+	</g>
+</svg>

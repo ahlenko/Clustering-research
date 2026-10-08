@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="720" height="365" preserveAspectRatio="xMinYMin meet" viewBox="0 0 720 365" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="720" height="365"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-365)" style="clip-path: url(#clip)">
+		<g transform="">
+			<text x="204.17" y="342" style="font-family: Helvetica; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,684) scale(1,-1)">TF-IDF</text>
+			<text x="296.66" y="342" style="font-family: Helvetica; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,684) scale(1,-1)">Word2Vec</text>
+			<text x="400.55" y="342" style="font-family: Helvetica; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,684) scale(1,-1)">FastText</text>
+			<text x="499.715" y="342" style="font-family: Helvetica; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,684) scale(1,-1)">Doc2Vec</text>
+			<text x="583.875" y="342" style="font-family: Helvetica; font-size: 10px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,684) scale(1,-1)">Sentence-BERT</text>
+			<text x="113.989" y="319" style="font-family: Helvetica; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,638) scale(1,-1)">K-Means</text>
+			<rect x="173" y="310" width="95" height="29" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 1; fill: rgb(73%,79%,87%); fill-rule: evenodd;"/>
+			<text x="206.239" y="319" style="font-family: Helvetica; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,638) scale(1,-1)">0.272</text>
+			<rect x="273" y="310" width="95" height="29" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 1; fill: rgb(69%,76%,85%); fill-rule: evenodd;"/>
+			<text x="306.239" y="319" style="font-family: Helvetica; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,638) scale(1,-1)">0.309</text>
+			<rect x="373" y="310" width="95" height="29" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 1; fill: rgb(66%,73%,83%); fill-rule: evenodd;"/>
+			<text x="406.239" y="319" style="font-family: Helvetica; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,638) scale(1,-1)">0.343</text>
+			<rect x="473" y="310" width="95" height="29" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 1; fill: rgb(70%,76%,85%); fill-rule: evenodd;"/>
+			<text x="506.239" y="319" style="font-family: Helvetica; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,638) scale(1,-1)">0.306</text>
+			<rect x="573" y="310" width="95" height="29" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 1; fill: rgb(37%,50%,69%); fill-rule: evenodd;"/>
+			<text x="606.239" y="319" style="font-family: Helvetica; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,638) scale(1,-1)">0.642</text>
+			<text x="74.25699999999999" y="287" style="font-family: Helvetica; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,574) scale(1,-1)">Parallel K-Means</text>
+			<rect x="173" y="278" width="95" height="29" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 1; fill: rgb(74%,80%,87%); fill-rule: evenodd;"/>
+			<text x="206.239" y="287" style="font-family: Helvetica; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,574) scale(1,-1)">0.258</text>
+			<rect x="273" y="278" width="95" height="29" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 1; fill: rgb(68%,75%,84%); fill-rule: evenodd;"/>
+			<text x="306.239" y="287" style="font-family: Helvetica; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,574) scale(1,-1)">0.322</text>
+			<rect x="373" y="278" width="95" height="29" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 1; fill: rgb(72%,78%,86%); fill-rule: evenodd;"/>
+			<text x="406.239" y="287" style="font-family: Helvetica; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,574) scale(1,-1)">0.286</text>
+			<rect x="473" y="278" width="95" height="29" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 1; fill: rgb(67%,74%,84%); fill-rule: evenodd;"/>
+			<text x="506.239" y="287" style="font-family: Helvetica; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,574) scale(1,-1)">0.328</text>
+			<rect x="573" y="278" width="95" height="29" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 1; fill: rgb(31%,46%,66%); fill-rule: evenodd;"/>
+			<text x="606.239" y="287" style="font-family: Helvetica; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,574) scale(1,-1)">0.702</text>
+			<text x="131.721" y="255" style="font-family: Helvetica; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,510) scale(1,-1)">Ward</text>
+			<rect x="173" y="246" width="95" height="29" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 1; fill: rgb(60%,69%,80%); fill-rule: evenodd;"/>
+			<text x="206.239" y="255" style="font-family: Helvetica; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,510) scale(1,-1)">0.404</text>
+			<rect x="273" y="246" width="95" height="29" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 1; fill: rgb(59%,68%,80%); fill-rule: evenodd;"/>
+			<text x="306.239" y="255" style="font-family: Helvetica; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,510) scale(1,-1)">0.417</text>
+			<rect x="373" y="246" width="95" height="29" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 1; fill: rgb(64%,72%,82%); fill-rule: evenodd;"/>
+			<text x="406.239" y="255" style="font-family: Helvetica; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,510) scale(1,-1)">0.365</text>
+			<rect x="473" y="246" width="95" height="29" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 1; fill: rgb(70%,76%,85%); fill-rule: evenodd;"/>
+			<text x="506.239" y="255" style="font-family: Helvetica; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,510) scale(1,-1)">0.305</text>
+			<rect x="573" y="246" width="95" height="29" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 1; fill: rgb(18%,35%,60%); fill-rule: evenodd;"/>
+			<text x="606.239" y="255" style="font-family: Helvetica; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,510) scale(1,-1)">0.838</text>
+			<text x="112.16300000000001" y="223" style="font-family: Helvetica; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,446) scale(1,-1)">DBSCAN</text>
+			<rect x="173" y="214" width="95" height="29" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="206.239" y="223" style="font-family: Helvetica; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,446) scale(1,-1)">0.000</text>
+			<rect x="273" y="214" width="95" height="29" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 1; fill: rgb(93%,94%,96%); fill-rule: evenodd;"/>
+			<text x="306.239" y="223" style="font-family: Helvetica; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,446) scale(1,-1)">0.067</text>
+			<rect x="373" y="214" width="95" height="29" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 1; fill: rgb(93%,94%,96%); fill-rule: evenodd;"/>
+			<text x="406.239" y="223" style="font-family: Helvetica; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,446) scale(1,-1)">0.067</text>
+			<rect x="473" y="214" width="95" height="29" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 1; fill: rgb(93%,94%,96%); fill-rule: evenodd;"/>
+			<text x="506.239" y="223" style="font-family: Helvetica; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,446) scale(1,-1)">0.067</text>
+			<rect x="573" y="214" width="95" height="29" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="606.239" y="223" style="font-family: Helvetica; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,446) scale(1,-1)">0.000</text>
+			<text x="109.71000000000001" y="191" style="font-family: Helvetica; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,382) scale(1,-1)">MiniBatch</text>
+			<rect x="173" y="182" width="95" height="29" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 1; fill: rgb(77%,82%,89%); fill-rule: evenodd;"/>
+			<text x="206.239" y="191" style="font-family: Helvetica; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,382) scale(1,-1)">0.232</text>
+			<rect x="273" y="182" width="95" height="29" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 1; fill: rgb(72%,78%,86%); fill-rule: evenodd;"/>
+			<text x="306.239" y="191" style="font-family: Helvetica; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,382) scale(1,-1)">0.286</text>
+			<rect x="373" y="182" width="95" height="29" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 1; fill: rgb(74%,80%,87%); fill-rule: evenodd;"/>
+			<text x="406.239" y="191" style="font-family: Helvetica; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,382) scale(1,-1)">0.258</text>
+			<rect x="473" y="182" width="95" height="29" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 1; fill: rgb(73%,78%,87%); fill-rule: evenodd;"/>
+			<text x="506.239" y="191" style="font-family: Helvetica; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,382) scale(1,-1)">0.276</text>
+			<rect x="573" y="182" width="95" height="29" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 1; fill: rgb(26%,42%,64%); fill-rule: evenodd;"/>
+			<text x="606.239" y="191" style="font-family: Helvetica; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,382) scale(1,-1)">0.756</text>
+			<text x="123.779" y="159" style="font-family: Helvetica; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,318) scale(1,-1)">BIRCH</text>
+			<rect x="173" y="150" width="95" height="29" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 1; fill: rgb(60%,69%,80%); fill-rule: evenodd;"/>
+			<text x="206.239" y="159" style="font-family: Helvetica; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,318) scale(1,-1)">0.404</text>
+			<rect x="273" y="150" width="95" height="29" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 1; fill: rgb(93%,94%,96%); fill-rule: evenodd;"/>
+			<text x="306.239" y="159" style="font-family: Helvetica; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,318) scale(1,-1)">0.067</text>
+			<rect x="373" y="150" width="95" height="29" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 1; fill: rgb(93%,94%,96%); fill-rule: evenodd;"/>
+			<text x="406.239" y="159" style="font-family: Helvetica; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,318) scale(1,-1)">0.067</text>
+			<rect x="473" y="150" width="95" height="29" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 1; fill: rgb(93%,94%,96%); fill-rule: evenodd;"/>
+			<text x="506.239" y="159" style="font-family: Helvetica; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,318) scale(1,-1)">0.067</text>
+			<rect x="573" y="150" width="95" height="29" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 1; fill: rgb(18%,35%,60%); fill-rule: evenodd;"/>
+			<text x="606.239" y="159" style="font-family: Helvetica; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,318) scale(1,-1)">0.838</text>
+			<text x="117.652" y="127" style="font-family: Helvetica; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,254) scale(1,-1)">Spectral</text>
+			<rect x="173" y="118" width="95" height="29" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 1; fill: rgb(68%,74%,84%); fill-rule: evenodd;"/>
+			<text x="206.239" y="127" style="font-family: Helvetica; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,254) scale(1,-1)">0.327</text>
+			<rect x="273" y="118" width="95" height="29" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 1; fill: rgb(67%,74%,84%); fill-rule: evenodd;"/>
+			<text x="306.239" y="127" style="font-family: Helvetica; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,254) scale(1,-1)">0.334</text>
+			<rect x="373" y="118" width="95" height="29" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 1; fill: rgb(65%,73%,83%); fill-rule: evenodd;"/>
+			<text x="406.239" y="127" style="font-family: Helvetica; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,254) scale(1,-1)">0.353</text>
+			<rect x="473" y="118" width="95" height="29" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 1; fill: rgb(66%,74%,84%); fill-rule: evenodd;"/>
+			<text x="506.239" y="127" style="font-family: Helvetica; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,254) scale(1,-1)">0.338</text>
+			<rect x="573" y="118" width="95" height="29" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 1; fill: rgb(37%,51%,69%); fill-rule: evenodd;"/>
+			<text x="606.239" y="127" style="font-family: Helvetica; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,254) scale(1,-1)">0.638</text>
+			<text x="124.989" y="95" style="font-family: Helvetica; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,190) scale(1,-1)">Affinity</text>
+			<rect x="173" y="86" width="95" height="29" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 1; fill: rgb(73%,79%,87%); fill-rule: evenodd;"/>
+			<text x="206.239" y="95" style="font-family: Helvetica; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,190) scale(1,-1)">0.270</text>
+			<rect x="273" y="86" width="95" height="29" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 1; fill: rgb(69%,76%,85%); fill-rule: evenodd;"/>
+			<text x="306.239" y="95" style="font-family: Helvetica; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,190) scale(1,-1)">0.310</text>
+			<rect x="373" y="86" width="95" height="29" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 1; fill: rgb(67%,74%,84%); fill-rule: evenodd;"/>
+			<text x="406.239" y="95" style="font-family: Helvetica; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,190) scale(1,-1)">0.329</text>
+			<rect x="473" y="86" width="95" height="29" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 1; fill: rgb(74%,80%,87%); fill-rule: evenodd;"/>
+			<text x="506.239" y="95" style="font-family: Helvetica; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,190) scale(1,-1)">0.257</text>
+			<rect x="573" y="86" width="95" height="29" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 1; fill: rgb(45%,57%,73%); fill-rule: evenodd;"/>
+			<text x="606.239" y="95" style="font-family: Helvetica; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,190) scale(1,-1)">0.557</text>
+			<text x="104.221" y="63" style="font-family: Helvetica; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,126) scale(1,-1)">HDBSCAN</text>
+			<rect x="173" y="54" width="95" height="29" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 1; fill: rgb(85%,88%,92%); fill-rule: evenodd;"/>
+			<text x="206.239" y="63" style="font-family: Helvetica; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,126) scale(1,-1)">0.152</text>
+			<rect x="273" y="54" width="95" height="29" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="306.239" y="63" style="font-family: Helvetica; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,126) scale(1,-1)">0.000</text>
+			<rect x="373" y="54" width="95" height="29" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="406.239" y="63" style="font-family: Helvetica; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,126) scale(1,-1)">0.000</text>
+			<rect x="473" y="54" width="95" height="29" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="506.239" y="63" style="font-family: Helvetica; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,126) scale(1,-1)">0.000</text>
+			<rect x="573" y="54" width="95" height="29" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="606.239" y="63" style="font-family: Helvetica; font-size: 11px;fill: rgb(0%,0%,0%); stroke:none;" transform="translate(0,126) scale(1,-1)">0.000</text>
+		</g>
+	</g>
+</svg>
